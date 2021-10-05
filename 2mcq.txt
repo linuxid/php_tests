@@ -1,0 +1,48 @@
+where is A:
+A
+B
+C
+D
+E
+
+Where is B:
+B
+A
+C
+D
+E
+
+Where is C:
+C
+A
+B
+D
+E
+
+Where is D:
+D
+A
+B
+C
+E
+
+Where is E:
+E
+A
+B
+C
+D
+
+Where is AB:
+AB
+A
+B
+C
+D
+
+Where is BC:
+BC
+A
+B
+C
+D
