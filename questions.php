@@ -28,12 +28,24 @@ echo '<style>
             color: indigo;
             background-color: gold;
        }
+       .co {
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        height:100vh;
+    }
     </style>
     
     ';
 if ($_POST['username']=="" || !is_numeric($_POST['usergroup'])) {
-    echo 'Enter correctly name and group number!!!<br>';
-    echo '<a href="index.php">Back</a>';
+    echo '
+    <div class="co">
+        <pre>
+            Enter correctly name and group number!!!
+            <a href="index.php">Back</a>
+        </pre>
+    </div>
+    ';
 }
 else {
 $_SESSION['name']=$_POST['username'];
