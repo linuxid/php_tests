@@ -21,7 +21,7 @@ session_start();
         <p>Enter your name: <input type="text"
                                    name="username"></p>
         <p>Group number: <input type="number"
-                                    name="usergroup"></p>
+                                    name="usergroup" min="1"></p>
 
         <p><input type="submit" name="submit"
                   value="Login"></p>
